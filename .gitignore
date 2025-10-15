@@ -1,0 +1,32 @@
+# Virtual Environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ChromaDB data
+chroma_data/
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ollama models (don't upload these!)
+*.gguf
+models/
+
+# Personal data
+documents/*.txt
+documents/*.pdf
+data/
